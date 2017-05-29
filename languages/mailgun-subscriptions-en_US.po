@@ -284,31 +284,31 @@ msgstr ""
 "Select which Page of your site will be used to display the Account "
 "Management page"
 
-#: Mailgun_Subscriptions/Confirmation_Handler.php:94
+#: Mailgun_Subscriptions/Confirmation_Handler.php:96
 msgid "[%s] Your Subscription Is Confirmed"
 msgstr "[%s] Your Subscription Is Confirmed"
 
-#: Mailgun_Subscriptions/Confirmation_Handler.php:143
+#: Mailgun_Subscriptions/Confirmation_Handler.php:145
 msgid "Error Confirming Your Subscription"
 msgstr "Error Confirming Your Subscription"
 
-#: Mailgun_Subscriptions/Confirmation_Handler.php:149
+#: Mailgun_Subscriptions/Confirmation_Handler.php:151
 msgid "Your request could not be found. Please try again."
 msgstr "Your request could not be found. Please try again."
 
-#: Mailgun_Subscriptions/Confirmation_Handler.php:152
+#: Mailgun_Subscriptions/Confirmation_Handler.php:154
 msgid "There are no mailing lists associated with your request. Please try again."
 msgstr "There are no mailing lists associated with your request. Please try again."
 
-#: Mailgun_Subscriptions/Confirmation_Handler.php:155
+#: Mailgun_Subscriptions/Confirmation_Handler.php:157
 msgid "You have already confirmed your request."
 msgstr "You have already confirmed your request."
 
-#: Mailgun_Subscriptions/Confirmation_Handler.php:158
+#: Mailgun_Subscriptions/Confirmation_Handler.php:160
 msgid "Your request has expired. Please try again."
 msgstr "Your request has expired. Please try again."
 
-#: Mailgun_Subscriptions/Confirmation_Handler.php:161
+#: Mailgun_Subscriptions/Confirmation_Handler.php:163
 msgid "We experienced a problem setting up your subscription. Please try again."
 msgstr "We experienced a problem setting up your subscription. Please try again."
 
@@ -320,7 +320,7 @@ msgstr "Mailgun Confirmation"
 msgid "%1$s (%2$s)"
 msgstr "%1$s (%2$s)"
 
-#: Mailgun_Subscriptions/Submission_Handler.php:121
+#: Mailgun_Subscriptions/Submission_Handler.php:127
 msgid "[%s] Confirm Your Subscription"
 msgstr "[%s] Confirm Your Subscription"
 
@@ -352,11 +352,19 @@ msgstr ""
 "You are already subscribed. Please contact us if you have trouble receiving "
 "messages."
 
-#: Mailgun_Subscriptions/Subscription_Form.php:120
+#: Mailgun_Subscriptions/Subscription_Form.php:121, Mailgun_Subscriptions/Subscription_Form.php:127
+msgid "Full Name"
+msgstr "Full Name"
+
+#: Mailgun_Subscriptions/Subscription_Form.php:132
 msgid "Email Address"
 msgstr "Email Address"
 
-#: Mailgun_Subscriptions/Subscription_Form.php:128, Mailgun_Subscriptions/Widget.php:62
+#: Mailgun_Subscriptions/Subscription_Form.php:138
+msgid "Email"
+msgstr "Email"
+
+#: Mailgun_Subscriptions/Subscription_Form.php:140, Mailgun_Subscriptions/Widget.php:61
 msgid "Subscribe"
 msgstr "Subscribe"
 
@@ -418,18 +426,22 @@ msgstr "A mailgun list subscription form"
 msgid "Mailgun List Subscription Form"
 msgstr "Mailgun List Subscription Form"
 
-#: Mailgun_Subscriptions/Widget.php:45
+#: Mailgun_Subscriptions/Widget.php:46
 msgid "Manage your subscriptions"
 msgstr "Manage your subscriptions"
 
-#: Mailgun_Subscriptions/Widget.php:78
+#: Mailgun_Subscriptions/Widget.php:77
 msgid "Title:"
 msgstr "Title:"
 
-#: Mailgun_Subscriptions/Widget.php:81
+#: Mailgun_Subscriptions/Widget.php:80
 msgid "Description:"
 msgstr "Description:"
 
-#: Mailgun_Subscriptions/Widget.php:84
-msgid "Options:"
-msgstr "Options:"
+#: Mailgun_Subscriptions/Widget.php:85
+msgid "Require name?"
+msgstr "Require name?"
+
+#: Mailgun_Subscriptions/Widget.php:88
+msgid "List Options:"
+msgstr "List Options:"
